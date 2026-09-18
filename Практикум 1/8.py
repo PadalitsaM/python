@@ -1,12 +1,8 @@
 print('Введите плэйлист от папы:')
-a = input()
-a2 = input()
-a3 = input()
-a4 = input()
-a5 = input()
+s = []
+for i in range(5):
+    a = input()
+    s.append(a)
 print('Введите плэйлист от мамы:')
-print(a5)
-print(a4)
-print(a3)
-print(a2)
-print(a)
+for k in range(4,-1,-1):
+    print(s[k])
